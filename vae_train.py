@@ -7,7 +7,7 @@ import torch.optim as optim
 import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 from torchvision.utils import make_grid
-from utils.vae import VQVAEModel
+from models.vae import VQVAEModel
 import matplotlib.pyplot as plt
 from scipy.signal import savgol_filter
 
